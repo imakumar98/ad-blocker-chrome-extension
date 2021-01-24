@@ -1,20 +1,20 @@
 {
      "manifest_version": 2,
      "name": "Ad Blocker",
-     "description": "Extension to block ads",
+     "description": "Free Ad Blocker Service in websites for everyone",
      "version": "1",
      "author": "Ashwani Kumar",
      "browser_action": {
           "default_title" : "Ad Blocker"
      },
      "permissions": [
-          "tabs",
-          "webNavigation",
-          "https://www.google.com"
+          "webRequest",
+          "webRequestBlocking",
+          "<all_urls>"
      ],
      "background": {
           "scripts": [
-               "extension.js"
+               "background.js"
           ]
      }
 
