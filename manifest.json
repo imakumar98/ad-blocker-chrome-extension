@@ -1,0 +1,21 @@
+{
+     "manifest_version": 2,
+     "name": "Ad Blocker",
+     "description": "Extension to block ads",
+     "version": "1",
+     "author": "Ashwani Kumar",
+     "browser_action": {
+          "default_title" : "Ad Blocker"
+     },
+     "permissions": [
+          "tabs",
+          "webNavigation",
+          "https://www.google.com"
+     ],
+     "background": {
+          "scripts": [
+               "extension.js"
+          ]
+     }
+
+}
